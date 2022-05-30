@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": {
+    "node": "bin/www.js"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "psj",
+  "license": "MIT",
+  "description": ""
+}
